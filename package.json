@@ -1,0 +1,22 @@
+{
+  "name": "elizabeth_clean",
+  "version": "1.0.0",
+  "description": "First shopify theme",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/polidario/Elizabeth_Clean.git"
+  },
+  "author": "Gilang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/polidario/Elizabeth_Clean/issues"
+  },
+  "homepage": "https://github.com/polidario/Elizabeth_Clean#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.4.17"
+  }
+}
