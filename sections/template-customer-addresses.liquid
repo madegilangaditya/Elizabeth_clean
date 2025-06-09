@@ -1,4 +1,4 @@
-<div class="max-w-6xl mx-auto px-4 py-12" x-data="{ new_address:false }">
+ex<div class="max-w-6xl mx-auto px-4 py-12" x-data="{ new_address:false }">
     <div class="flex flex-col md:flex-row items-center justify-between my-5 gap-4">
         <h1 class="text-2xl font-bold text-gray-700">Addresses</h1>
         <button x-on:click="new_address = true " class="text-white font-medium bg-gray-700 hover:bg-gray-900 px-6 py-2" type="button">Create new Address</button>
@@ -134,9 +134,9 @@
 
                 for(var index = 0; index < arrayOfProvince.length; index++){
                     if(arrayOfProvince[index][0] === provinceSelector.getAttribute('value')){
-                        options += `<option value="${arrayOfProvince[i][0]}" selected>${arrayOfProvince[index][0]}</option>`
+                        options += `<option value="${arrayOfProvince[index][0]}" selected>${arrayOfProvince[index][0]}</option>`
                     }else{
-                        options += `<option value="${arrayOfProvince[i][0]}">${arrayOfProvince[index][0]}</option>`
+                        options += `<option value="${arrayOfProvince[index][0]}">${arrayOfProvince[index][0]}</option>`
                     }
                 }
 
